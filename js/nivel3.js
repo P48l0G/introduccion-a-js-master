@@ -122,10 +122,11 @@
 // TAREA: Ahora te toca a vos! — Obtené la etiqueta h1 de la página y guardala en una variable
 //       variable llamada nuestroTitulo.
 //       Utilizá console.log para ver lo que obtuviste!
-const nuestroTitulo = document.querySelector('h1');
+
+/*const nuestroTitulo = document.querySelector('h1');
 console.log(nuestroTitulo);
 console.log(nuestroTitulo.innerText);
-
+*/
 
 /*
     Obteniendo elementos similares.
@@ -143,22 +144,23 @@ console.log(nuestroTitulo.innerText);
 */
 
 // TAREA: Obtené todos los elementos <li> de la página en una variable llamada mediaLinks.
-
+/*
 const mediaLinks = document.querySelectorAll('li');
 console.log(mediaLinks);
-
+*/
 // TAREA: Ahora utilizá console.log para ver la cantidad de 
 // elementos li que hay con mediaLinks.length
-
+/*
 console.log(mediaLinks.length);
-
+*/
 // TAREA: ¿Te acordás de los bucles del nivel 2? Usando lo que sabés de ellos, realizá
 // iteraciones sobre cada item de mediaLinks y mostralos en pantalla con console.log
-
+/*
 for (i = 0; i < mediaLinks.length; i++) {
-    console.log(mediaLinks[i].innerText);
+    console.log(mediaLinks[i]);
 }
-
+*/
+/*
 //  Botón de ingreso a bar con nombre y edad
 const $botonIngreso = document.querySelector('#ingresar');
 
@@ -176,7 +178,7 @@ $botonIngreso.onclick = function () {
     return false;   // <- Esta linea evita que el evento se siga propagando. El formulario
                     // no se envía y no recarga la página permitiendo ver lo que ingresamos.
 }
-
+*/
 
 /*
     Propiedades de los elementos
@@ -194,10 +196,10 @@ $botonIngreso.onclick = function () {
 
 // TAREA: Obtené el contenido de nuestro elemento 'h1'
 // y utilizá console.log para mostrarlo.
-
+/*
 const nuestroTituloTarea = document.querySelector('h1').textContent;
 console.log(nuestroTituloTarea);
-
+*/
 
 
 /*
@@ -224,9 +226,9 @@ console.log(nuestroTituloTarea);
 // console.log(nuestroTwitter.textContent);
 
 // TAREA: Hagamos un nuevo título! Cambiá el contenido de nuestro 'h1' y ponele lo que quieras.
-
+/*
 nuestroTitulo.textContent = 'Título Modificado';
-
+*/
 /*
     Editando atributos
     ==================
@@ -240,10 +242,10 @@ nuestroTitulo.textContent = 'Título Modificado';
 */
 
 // TAREA: Actualizá el valor del atributo 'src' de nuestra etiqueta 'img' a "img/kittens.jpeg".
-
+/*
 const nuestraImagen = document.querySelector('img');
 nuestraImagen.src = "img/kittens.jpeg";
-
+*/
 
 /*
     Editando estilos
@@ -264,7 +266,7 @@ nuestraImagen.src = "img/kittens.jpeg";
 */
 
 // Tarea: Obtené cualquier elemento de la página y cambiale algunos estilos.
-
+/*
 nuestroTitulo.style.fontStyle = 'italic';
 
 const nuestroSubtitulo = document.querySelector('h2');
@@ -274,7 +276,7 @@ nuestroSubtitulo.style.backgroundColor = 'lightYellow';
 const nuestroFondo = document.querySelector('main');
 nuestroFondo.style.backgroundColor = 'lightGrey';
 nuestroFondo.style.color = 'teal';
-
+*/
 
 /*
    Creando nuevos nodos (Elementos)
@@ -300,17 +302,12 @@ nuestroFondo.style.color = 'teal';
 //       en nuestra cabecera.
 //
 // P.S. También les podés dar estilos al nuevo nodo que creaste.
-
-const cabecera = document.querySelector('header');
-const nuevoParrafoCabecera = document.createElement('p');
+/*
 const imagenCabecera = document.createElement('img');
-imagenCabecera.src = 'img/logo.jpg';
-nuevoParrafoCabecera.appendChild(imagenCabecera);
-cabecera.appendChild(nuevoParrafoCabecera);
-
-nuevoParrafoCabecera.style.backgroundColor = 'orange';
-
-
+imagenCabecera.src = 'img/woman_bw.jpg';
+document.querySelector('header').appendChild(imagenCabecera);
+x.style.backgroundColor = 'orange';
+*/
 ////////////////////////////////////////////////////////////////////////////
 // ¡Felicidades! ¡Has terminado el Nivel 3 de JavaScript Básico!          //
 // Levántate, estira las piernas y celebra tu logro.                      //

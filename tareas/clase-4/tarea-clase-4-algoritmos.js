@@ -170,7 +170,7 @@ Desafío de programación #11: Calcula el promedio de todos los números en un a
 console.log('---------------- DESAFIO 11 ----------------');
 function calcularPromedio(numerosDesafio11) {
   let sumaNumeros = 0;
-  for (i = 0; i < numerosDesafio11.length; i++) {
+  for (let i = 0; i < numerosDesafio11.length; i++) {
     sumaNumeros += numerosDesafio11[i];
   }
   return sumaNumeros / numerosDesafio11.length;

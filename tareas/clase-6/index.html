@@ -10,17 +10,26 @@
 <body>
     <div id="ingresar-cantidad-integrantes">
         <label for="cantidad-integrantes">¿Cuántos integrantes hay en tu familia?</label>
-        <input type="number" id="cantidad-integrantes">
+        <input type="number" id="cantidad-integrantes" placeholder="Ingrese N° de integrantes">
         <button type="button" id="boton-aceptar">Aceptar</button>
     </div>
 
     <div id="edades"></div>
 
     <button type="button" id="boton-calcular" hidden>Calcular</button>
+    <p>
+    <div id="menor-edad"></div><br>
+    <div id="mayor-edad"></div><br>
+    <div id="promedio-edad"></div><br>
+    <div id="salarios">
+        <div id="mayor-salario-anual"></div><br>
+        <div id="menor-salario-anual"></div><br>
+        <div id="salario-anual-promedio"></div><br>
+        <div id="salario-mensual-promedio"></div>
+    </div>
+    </p>
+    <button type="button" id="boton-reiniciar" hidden>Empezar de nuevo</button>
 
-    <p><div id="menor-edad"></div></p>
-    <p><div id="mayor-edad"></div></p>
-    <p><div id="promedio-edad"></div></p>
 
     <script type="text/javascript" src="tarea-clase-6.js"></script>
 </body>
